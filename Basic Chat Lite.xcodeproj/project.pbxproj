@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5DE56221F152FD40033387A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DE56211F152FD40033387A /* AppDelegate.swift */; };
+		D5DE56241F152FD40033387A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DE56231F152FD40033387A /* ViewController.swift */; };
+		D5DE56271F152FD40033387A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DE56251F152FD40033387A /* Main.storyboard */; };
+		D5DE56291F152FD40033387A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5DE56281F152FD40033387A /* Assets.xcassets */; };
+		D5DE562C1F152FD40033387A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DE562A1F152FD40033387A /* LaunchScreen.storyboard */; };
+		D5DE56341F1532160033387A /* UUIDKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DE56331F1532160033387A /* UUIDKey.swift */; };
+		D5DE56361F1542C60033387A /* PeripheralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DE56351F1542C60033387A /* PeripheralTableViewCell.swift */; };
+		D5DE56381F154F310033387A /* UartModuleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DE56371F154F310033387A /* UartModuleVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D5DE561E1F152FD40033387A /* Basic Chat Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basic Chat Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DE56211F152FD40033387A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5DE56231F152FD40033387A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5DE56261F152FD40033387A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5DE56281F152FD40033387A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5DE562B1F152FD40033387A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5DE562D1F152FD40033387A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5DE56331F1532160033387A /* UUIDKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UUIDKey.swift; sourceTree = "<group>"; };
+		D5DE56351F1542C60033387A /* PeripheralTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralTableViewCell.swift; sourceTree = "<group>"; };
+		D5DE56371F154F310033387A /* UartModuleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UartModuleVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5DE561B1F152FD40033387A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5DE56151F152FD40033387A = {
+			isa = PBXGroup;
+			children = (
+				D5DE56201F152FD40033387A /* Basic Chat Lite */,
+				D5DE561F1F152FD40033387A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5DE561F1F152FD40033387A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5DE561E1F152FD40033387A /* Basic Chat Lite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5DE56201F152FD40033387A /* Basic Chat Lite */ = {
+			isa = PBXGroup;
+			children = (
+				D5DE56211F152FD40033387A /* AppDelegate.swift */,
+				D5DE56231F152FD40033387A /* ViewController.swift */,
+				D5DE56351F1542C60033387A /* PeripheralTableViewCell.swift */,
+				D5DE56371F154F310033387A /* UartModuleVC.swift */,
+				D5DE56331F1532160033387A /* UUIDKey.swift */,
+				D5DE56251F152FD40033387A /* Main.storyboard */,
+				D5DE56281F152FD40033387A /* Assets.xcassets */,
+				D5DE562A1F152FD40033387A /* LaunchScreen.storyboard */,
+				D5DE562D1F152FD40033387A /* Info.plist */,
+			);
+			path = "Basic Chat Lite";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5DE561D1F152FD40033387A /* Basic Chat Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DE56301F152FD40033387A /* Build configuration list for PBXNativeTarget "Basic Chat Lite" */;
+			buildPhases = (
+				D5DE561A1F152FD40033387A /* Sources */,
+				D5DE561B1F152FD40033387A /* Frameworks */,
+				D5DE561C1F152FD40033387A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Basic Chat Lite";
+			productName = "Basic Chat Lite";
+			productReference = D5DE561E1F152FD40033387A /* Basic Chat Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5DE56161F152FD40033387A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Vanguard Logic LLC";
+				TargetAttributes = {
+					D5DE561D1F152FD40033387A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FM9FX3E9L3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D5DE56191F152FD40033387A /* Build configuration list for PBXProject "Basic Chat Lite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5DE56151F152FD40033387A;
+			productRefGroup = D5DE561F1F152FD40033387A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5DE561D1F152FD40033387A /* Basic Chat Lite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5DE561C1F152FD40033387A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DE562C1F152FD40033387A /* LaunchScreen.storyboard in Resources */,
+				D5DE56291F152FD40033387A /* Assets.xcassets in Resources */,
+				D5DE56271F152FD40033387A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5DE561A1F152FD40033387A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DE56341F1532160033387A /* UUIDKey.swift in Sources */,
+				D5DE56241F152FD40033387A /* ViewController.swift in Sources */,
+				D5DE56221F152FD40033387A /* AppDelegate.swift in Sources */,
+				D5DE56381F154F310033387A /* UartModuleVC.swift in Sources */,
+				D5DE56361F1542C60033387A /* PeripheralTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5DE56251F152FD40033387A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5DE56261F152FD40033387A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5DE562A1F152FD40033387A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5DE562B1F152FD40033387A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5DE562E1F152FD40033387A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5DE562F1F152FD40033387A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5DE56311F152FD40033387A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FM9FX3E9L3;
+				INFOPLIST_FILE = "Basic Chat Lite/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BeatonTech.Basic-Chat-Lite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D5DE56321F152FD40033387A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FM9FX3E9L3;
+				INFOPLIST_FILE = "Basic Chat Lite/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BeatonTech.Basic-Chat-Lite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5DE56191F152FD40033387A /* Build configuration list for PBXProject "Basic Chat Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DE562E1F152FD40033387A /* Debug */,
+				D5DE562F1F152FD40033387A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5DE56301F152FD40033387A /* Build configuration list for PBXNativeTarget "Basic Chat Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DE56311F152FD40033387A /* Debug */,
+				D5DE56321F152FD40033387A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5DE56161F152FD40033387A /* Project object */;
+}
